@@ -1,6 +1,6 @@
 # Truthfulness Classifier
 
-Binary classification of statements as **TRUE** or **FALSE**, trained on the [LIAR dataset](https://huggingface.co/datasets/liar).
+Binary classification of statements as **TRUE** or **FALSE**, trained on the LIAR dataset.
 
 **Model:** DistilBERT + Credit Score + Metadata (speaker, affiliation, context)
 **Test set:** Accuracy 0.714 · AUC 0.763 · MCC 0.418 · Balanced Accuracy 0.708
